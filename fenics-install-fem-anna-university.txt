@@ -1,0 +1,24 @@
+install this
+
+https://fenicsproject.org/download/archive/
+
+normal pythonin terminal without anaconda from source
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:fenics-packages/fenics
+sudo apt-get update
+sudo apt-get install fenics
+
+in condacreate environment use the github link coponda is working
+https://github.com/FEniCS/dolfinx
+conda create -n fenicsproject -c conda-forge fenics
+source activate fenicsproject
+
+for conda this would work but are executables 
+
+https://github.com/FEniCS/dolfinx
+
+conda create -n fenicsx-env
+conda activate fenicsx-env
+conda install -c conda-forge fenics-dolfinx mpich pyvista # Linux and macOS
+conda install -c conda-forge fenics-dolfinx pyvista pyamg # Windows
+
